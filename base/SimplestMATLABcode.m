@@ -48,7 +48,7 @@ for angle_i = 1:nAngles
             % Append to full design matrix
             X_all = [X_all, X_row];
             Y_all = [Y_all, [xTrue; yTrue]];
-            t=t+10;
+            t=t+5;
         end
     end
     disp(angle_i);
